@@ -1,0 +1,304 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+
+/* ------ here are some common styles across the stylesheet ---------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.common-heading{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 24px;
+    line-height: 47px;
+    color: #fff;
+}
+
+.common-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    color: #fff;
+}
+
+.common-btn {
+    font-size: 20px;
+    line-height: 23px;
+    color: #005FAC;
+    font-weight: 600;
+    padding: 20px 26px;
+    background: #fff;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+
+/* ------ common styles ending ---------------- */
+
+/* -------------- header styles begins ------------- */
+
+.header{
+    background: url('../images/banner/banner3.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 85%;
+    margin: 0 auto;
+    text-align: right;
+    
+}
+
+.header-text {
+    width: 500px;
+    text-align: right;
+    display: inline-block;
+    margin-top: 216px;
+    margin-right: 100px;
+    
+}
+
+.header-text h1{
+    font-size: 55px;
+    Line-height: 76.25px;
+}
+
+/* -------------- header styles ends ------------- */
+
+
+/* -------------- Event styles begins ------------- */
+
+#events {
+    
+    text-align: center;
+    width: 75%;
+    margin: 140px auto;
+    
+}
+.event-container{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.event-container img{
+    max-width: 100%;
+    width: 320px;
+    height: 190px;
+}
+
+.event-col {
+    text-align: left;
+    width: 28%;
+    padding: 21px;
+    border-radius: 8px;
+    box-shadow: 0 10px 50px #dddbdb;
+}
+
+.event-col h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    margin: 16px auto;
+}
+
+.event-col p{
+    line-height: 32px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+#events h2{
+    margin-bottom: 50px;
+    color: #151414;
+
+
+}
+/* -------------- Event styles ends ------------- */
+
+
+
+/* -------------- failure styles begins ------------- */
+
+
+.check-mark{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+
+#failure{
+    text-align: center;
+    width: 75%;
+    margin: 140px auto;
+}
+
+.failure-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+
+.failure-col{
+    width: 1000px;
+    text-align: left;
+}
+
+.failure-col > img{
+    width: 100%;
+}
+
+#failure h2{
+    color: #151414;
+}
+#failure p{
+    color: #151414;
+}
+#failure .common-text{
+    margin-top: 16px;
+}
+
+
+
+
+
+
+
+/* -------------- failure styles ends ------------- */
+
+
+/* -------------- plan styles begins ------------- */
+#plan{
+    text-align: center;
+}
+#plan h2{
+    
+    color: #151414;
+}
+
+.plan-container{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    margin: 50px auto 130px;
+    gap: 10px;
+    
+}
+
+.each-plan{
+    padding: 5px;
+    width: 400px;
+    height: 200px;
+}
+.each-plan img{
+   
+    margin-bottom: 9px;
+}
+.each-plan p{
+    color: #737272;
+    margin-top: 9px;
+}
+/* -------------- failure styles ends ------------- */
+
+/* -------------- mindset styles begins ------------- */
+
+#mindset{
+    width: 75%;
+    height: 300px;
+    border-radius: 8px;
+    margin: 50px auto 150px;
+    background: url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mindset-container{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    mix-blend-mode: hard-light;
+    text-align: left;
+    padding: 55px;
+}
+.mindset-container h2{
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+/* -------------- mindset styles ends ------------- */
+
+
+/* -------------- footer styles begins ------------- */
+
+.footer{
+    width: 85%;
+    margin: 0 auto;
+    background: #151414;
+}
+
+.footer-container{
+    padding: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 140px;
+}
+.footer-container h2{
+    color: #fff;
+    font-size: 40px;
+}
+.footer-container h3{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 31px;
+}
+.footer-container small{
+    color: #fff;
+    font-size: 15px;
+    
+}
+.footer-container img{
+    margin-right: 17px;
+    
+}
+
+.subscribe{
+    text-align: left;
+}
+.subscribe input{
+    color:  #F3F3F3;
+    border: 1px solid #fff;
+    padding: 21px;
+    outline: none;
+    background: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.footer-text{
+    width: 450px;
+
+}
+.subscribe-button{
+    background: #005FAC;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 16px;
+}
+/* -------------- footer styles ends ------------- */
+
